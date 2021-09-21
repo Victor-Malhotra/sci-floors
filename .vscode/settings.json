@@ -35,5 +35,14 @@
         "yml",
         "COBOL",
         "ACUCOBOL"
+    ],
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "html"
     ]
 }
