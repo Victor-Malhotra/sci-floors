@@ -13,35 +13,47 @@
         * {
             background-color: black;
         }
-
+        
+        .body {
+            display: grid;
+            grid-template-areas: ;
+            grid-template-columns: ;
+            grid-template-rows: ;
+            grid-gap: ;
+        }
+        
         .logo {
+            text-align: center;
+        }
+        
+        .MiddleLogo {
             text-align: center;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="Logo.png" />
-        </div>
+    <div class="body">
+        <header>
+            <div class="logo">
+                <img src="Logo.png" />
+            </div>
 
-        <div style="background-color: rosybrown;">
-            <a href="URL" style="background-color: rosybrown;"> 1</a>
-            <a href="URL" style="background-color: rosybrown;"> 2</a>
-            <a href="URL" style="background-color: rosybrown;"> 3</a>
-            <a href="URL" style="background-color: rosybrown;"> 4</a>
+            <div style="background-color: rosybrown">
+                <a href="URL" style="background-color: rosybrown"> 1</a>
+                <a href="URL" style="background-color: rosybrown"> 2</a>
+                <a href="URL" style="background-color: rosybrown"> 3</a>
+                <a href="URL" style="background-color: rosybrown"> 4</a>
+            </div>
+        </header>
 
-
-        </div>
-
-    </header>
-
-    <article>
-        <div>
-            <img src="Logo.png" style="width: 500px; height: 500px;" />
-        </div>
-    </article>
+        <article>
+            <div class="MiddleLogo">
+                <img src="Logo.png" style="width: 500px; height: 500px" />
+            </div>
+        </article>
+        <footer></footer>
+    </div>
 </body>
 
 </html>
