@@ -7,9 +7,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <style>
+    * {
+      background-color: black;
+    }
+
+    .il {
+      text-align: left;
+      color: white;
+    }
+
     .logo {
       text-align: left;
     }
+
+
+    .styled {
+      border: 0;
+      line-height: 2.5;
+      padding: 0 20px;
+      font-size: 1rem;
+      text-align: center;
+      color: rosybrown;
+      text-shadow: 1px 1px 1px #000;
+      border-radius: 10px;
+      background-color: rosybrown (220, 0, 0, 1);
+      background-image: linear-gradient(to top left,
+          rgba(0, 0, 0, .2),
+          rgba(0, 0, 0, .2) 30%,
+          rgba(0, 0, 0, 0));
+      box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+        inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+
+    .styled:hover {
+      background-color: rosybrown (255, 0, 0, 1);
+    }
+
+    .styled:active {}
   </style>
 </head>
 
@@ -17,52 +51,71 @@
   <div class="logo">
     <a href="index.html"><img src="Logo.png" /></a>
   </div>
+  <nav style="text-align: center;">
+    <button class="styled" type="button" style="background-color: rosybrown;">
+      <a href="index.html" style="
+          background-color: rosybrown;
+          float: center;
+          text-decoration: underline;
+          color: black;
+        ">
+        Home</a>
+    </button>
+    <button class="styled" type="button" style="background-color: rosybrown;">
+      <a href="gallery.html" style="
+          background-color: rosybrown;
+          float: center;
+          text-decoration: underline;
+          color: black;
+        ">
+        Gallery</a>
+    </button>
 
-  <div class="nav" style="
-        background-color: rosybrown;
-        font-size: 30px;
-        padding: 1.8px 1.8px 1.8px 1.8px;
-        margin: 2px 20px 2px 20px;
+
+    <button class="styled" type="button" style="background-color: rosybrown;">
+      <a href="service.html" style="
+          background-color: rosybrown;
+          float: center;
+          text-decoration: underline;
+          color: black;
+      
       ">
-    <a href="index.html" style="
+        Services</a>
+    </button>
+    <button class="styled" type="button" style="background-color: rosybrown;">
+      <a href="order.html" style="
           background-color: rosybrown;
           float: center;
           text-decoration: underline;
           color: black;
         ">
-      Home</a>
+        Order Page</a>
+    </button>
 
-    <a href="gallery.html" style="
-          background-color: rosybrown;
-          float: center;
-          text-decoration: underline;
-          color: black;
-        ">
-      Gallery</a>
-
-    <a href="service.html" style="
-          background-color: rosybrown;
-          float: center;
-          text-decoration: underline;
-          color: black;
-        ">
-      Services</a>
-
-    <a href="order.html" style="
-          background-color: rosybrown;
-          float: center;
-          text-decoration: underline;
-          color: black;
-        ">
-      Order Page</a>
-  </div>
-
-  <h1> What we do</h1>
+  </nav>
 
 
-  <li>we set tiles for you for a adfordble price.</li>
-  <li>all the tile has a fusrist fell to it </li>
-  <li>it has lights and you can shuse its color</li>
+
+
+
+  <article>
+    <h1 style="text-align: center; color: white;">What we do
+      <h1>
+
+
+
+        <h2> </h2>
+        <div class="il">
+          <h2>
+            <li>we make tile and place it .</li>
+            <li>many of our products are seamless tile so there are no lines. </li>
+            <li>all are imbedded with lights.</li>
+            <li> it's all at a afordable price.</li>
+            <li>all have a furer felling and seting.</li>
+          </h2>
+        </div>
+
+  </article>
 </body>
 
 </html>
